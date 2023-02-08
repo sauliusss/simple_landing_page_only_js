@@ -1,0 +1,24 @@
+{
+  "name": "simple_landing_page_only_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sauliusss/simple_landing_page_only_js.git"
+  },
+  "keywords": [],
+  "author": "Saulius <sjsaulius@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sauliusss/simple_landing_page_only_js/issues"
+  },
+  "homepage": "https://github.com/sauliusss/simple_landing_page_only_js#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
