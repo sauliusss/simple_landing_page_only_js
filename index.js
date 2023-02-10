@@ -1,13 +1,22 @@
+// add container class
+const container = document.createElement("div");
+container.classList.add("container");
+document.body.appendChild(container);
 // add header class
 const header = document.createElement("div");
 header.classList.add("header");
-document.body.appendChild(header);
+container.appendChild(header);
+
+// logo section
+const logoSection = document.createElement("div");
+logoSection.classList.add("logoSection");
+header.appendChild(logoSection);
 // add logo class
 const logo = document.createElement("div");
 logo.classList.add("logo");
 document.querySelector("body").appendChild(logo);
-header.append(logo);
-logo.innerHTML = "new logo here";
+logoSection.append(logo);
+logo.innerHTML = "F";
 // add nav class
 const nav = document.createElement("div");
 nav.classList.add("nav");
@@ -32,9 +41,19 @@ homeLink.innerHTML = "Home";
 storiesLink.innerHTML = "Stories";
 libraryLink.innerHTML = "Library";
 getStartedLink.innerHTML = "Get Started";
+// add style to container
+container.style.border = "150px solid black";
 // add style to header
 header.style.display = "flex";
 header.style.justifyContent = "space-between";
+header.style.padding = "0 150px";
+// add style to logo
+logo.style.fontSize = "30px";
+logo.style.fontWeight = "900";
+logo.style.color = "blue";
+logo.style.padding = "10px 20px";
+logo.style.border = "1px solid blue";
+logo.style.borderRadius = "15px";
 // add style to nav
 homeLink.style.margin = "0 50px 0 0";
 storiesLink.style.margin = "0 50px 0 0";
