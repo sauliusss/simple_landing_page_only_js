@@ -32,3 +32,29 @@ homeLink.innerHTML = "Home";
 storiesLink.innerHTML = "Stories";
 libraryLink.innerHTML = "Library";
 getStartedLink.innerHTML = "Get Started";
+// add style to header
+header.style.display = "flex";
+header.style.justifyContent = "space-between";
+// add style to nav
+homeLink.style.margin = "0 50px 0 0";
+storiesLink.style.margin = "0 50px 0 0";
+libraryLink.style.margin = "0 50px 0 0";
+getStartedLink.style.margin = "0 50px 0 0";
+
+homeLink.style.textDecoration = "none";
+storiesLink.style.textDecoration = "none";
+libraryLink.style.textDecoration = "none";
+getStartedLink.style.textDecoration = "none";
+
+homeLink.style.color = "black";
+homeLink.style.fontWeight = "900";
+storiesLink.style.color = "black";
+libraryLink.style.color = "black";
+getStartedLink.style.color = "white";
+getStartedLink.style.fontWeight = "900";
+
+// nav last child style
+
+getStartedLink.style.padding = "10px 20px";
+getStartedLink.style.backgroundColor = "blue";
+getStartedLink.style.border = "none";
