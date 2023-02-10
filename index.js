@@ -52,9 +52,7 @@ storiesLink.style.color = "black";
 libraryLink.style.color = "black";
 getStartedLink.style.color = "white";
 getStartedLink.style.fontWeight = "900";
-
 // nav last child style
-
 getStartedLink.style.padding = "10px 20px";
 getStartedLink.style.backgroundColor = "blue";
 getStartedLink.style.border = "none";
