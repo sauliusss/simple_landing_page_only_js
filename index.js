@@ -17,6 +17,18 @@ logo.classList.add("logo");
 document.querySelector("body").appendChild(logo);
 logoSection.append(logo);
 logo.innerHTML = "F";
+// add logoRight class
+const logoRight = document.createElement("div");
+logoRight.classList.add("logoRight");
+logoSection.append(logoRight);
+// add logoRightText
+const logoRightText = document.createElement("div");
+logoRight.append(logoRightText);
+logoRightText.innerHTML = "Foundation";
+// add logoRightText2
+const logoRightText2 = document.createElement("div");
+logoRight.append(logoRightText2);
+logoRightText2.innerHTML = "Startup landing template";
 // add nav class
 const nav = document.createElement("div");
 nav.classList.add("nav");
@@ -47,6 +59,8 @@ container.style.border = "150px solid black";
 header.style.display = "flex";
 header.style.justifyContent = "space-between";
 header.style.padding = "0 150px";
+// add style to logoSection
+logoSection.style.display = "flex";
 // add style to logo
 logo.style.fontSize = "30px";
 logo.style.fontWeight = "900";
@@ -54,6 +68,8 @@ logo.style.color = "blue";
 logo.style.padding = "10px 20px";
 logo.style.border = "1px solid blue";
 logo.style.borderRadius = "15px";
+// add style to logoRight
+
 // add style to nav
 homeLink.style.margin = "0 50px 0 0";
 storiesLink.style.margin = "0 50px 0 0";
