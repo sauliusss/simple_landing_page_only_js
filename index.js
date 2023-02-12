@@ -54,27 +54,33 @@ storiesLink.innerHTML = "Stories";
 libraryLink.innerHTML = "Library";
 getStartedLink.innerHTML = "Get Started";
 // add style to container
-container.style.border = "150px solid black";
+container.style.margin = "200px 150px";
+container.style.border = "150px solid #3c1c57";
 // add style to header
 header.style.display = "flex";
 header.style.justifyContent = "space-between";
-header.style.padding = "0 150px";
+header.style.padding = " 50px 150px 0 150px";
+header.style.backgroundColor = "#f3c7bd";
 // add style to logoSection
 logoSection.style.display = "flex";
 // add style to logo
 logo.style.fontSize = "30px";
 logo.style.fontWeight = "900";
-logo.style.color = "blue";
+logo.style.color = "#3e44c8";
+logo.style.backgroundColor = "white";
 logo.style.padding = "10px 20px";
 logo.style.border = "1px solid blue";
 logo.style.borderRadius = "15px";
 // add style to logoRight
-
+logoRight.style.margin = "5px 0 0 12px";
+// add style to logoRightText
+logoRightText.style.fontSize = "20px";
+logoRightText.style.fontWeight = "900";
 // add style to nav
-homeLink.style.margin = "0 50px 0 0";
-storiesLink.style.margin = "0 50px 0 0";
-libraryLink.style.margin = "0 50px 0 0";
-getStartedLink.style.margin = "0 50px 0 0";
+homeLink.style.margin = "5px 50px 0 0";
+storiesLink.style.margin = "5px 50px 0 0";
+libraryLink.style.margin = "5px 50px 0 0";
+getStartedLink.style.margin = "5px 50px 0 0";
 
 homeLink.style.textDecoration = "none";
 storiesLink.style.textDecoration = "none";
