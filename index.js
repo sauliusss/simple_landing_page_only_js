@@ -105,7 +105,28 @@ getStartedLink.style.border = "none";
 const hero = document.createElement("div");
 hero.classList.add("hero");
 container.append(hero);
-// hero style
-
-hero.style.height = "500px";
+// hero text
+const heroText = document.createElement("div");
+hero.append(heroText);
+heroText.innerHTML = "Build stunning websites & apps.";
+// hero text2
+const heroText2 = document.createElement("div");
+hero.append(heroText2);
+heroText2.innerHTML = "Creative live segments and target the right people for messages based on their behaviors.";
+// hero class style
+hero.style.height = "700px";
 hero.style.backgroundColor = "#f3c7bd";
+// hero text style
+heroText.style.width = "50%";
+heroText.style.padding = "100px 0 0 150px";
+heroText.style.fontSize = "80px";
+heroText.style.fontWeight = "900";
+// hero text2 style
+heroText2.style.width = "30%";
+heroText2.style.padding = "25px 0 0 150px";
+heroText2.style.fontSize = "25px";
+heroText2.style.fontWeight = "900";
+
+// lineheight padaryt
+// apacioj mygtukai
+// ir desinej uzmest koki paveiksliuka
