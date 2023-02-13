@@ -2,11 +2,11 @@
 const container = document.createElement("div");
 container.classList.add("container");
 document.body.appendChild(container);
+// header section start >>>>>>>>>>>>>>>>>>>>>
 // add header class
 const header = document.createElement("div");
 header.classList.add("header");
 container.appendChild(header);
-
 // logo section
 const logoSection = document.createElement("div");
 logoSection.classList.add("logoSection");
@@ -97,3 +97,15 @@ getStartedLink.style.fontWeight = "900";
 getStartedLink.style.padding = "10px 20px";
 getStartedLink.style.backgroundColor = "blue";
 getStartedLink.style.border = "none";
+
+// header section end >>>>>>>>>>>>>>>>>>>>>
+
+// hero section start >>>>>>>>>>>>>>>>>>>>>
+// hero class add
+const hero = document.createElement("div");
+hero.classList.add("hero");
+container.append(hero);
+// hero style
+
+hero.style.height = "500px";
+hero.style.backgroundColor = "#f3c7bd";
