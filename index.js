@@ -105,28 +105,27 @@ getStartedLink.style.border = "none";
 const hero = document.createElement("div");
 hero.classList.add("hero");
 container.append(hero);
+// hero imgAndText class
+const imgAndText = document.createElement("div");
+imgAndText.classList.add("imgAndText");
+hero.append(imgAndText);
+// hero texts class
+const texts = document.createElement("div");
+texts.classList.add("texts");
+imgAndText.append(texts);
 // hero text
 const heroText = document.createElement("div");
-hero.append(heroText);
+texts.append(heroText);
 heroText.innerHTML = "Build stunning websites & apps.";
 // hero text2
 const heroText2 = document.createElement("div");
-hero.append(heroText2);
+texts.append(heroText2);
 heroText2.innerHTML = "Creative live segments and target the right people for messages based on their behaviors.";
-// hero class style
-hero.style.height = "700px";
-hero.style.backgroundColor = "#f3c7bd";
-// hero text style
-heroText.style.width = "50%";
-heroText.style.padding = "100px 0 0 150px";
-heroText.style.fontSize = "80px";
-heroText.style.fontWeight = "900";
-// hero text2 style
-heroText2.style.width = "30%";
-heroText2.style.padding = "25px 0 0 150px";
-heroText2.style.fontSize = "25px";
-heroText2.style.fontWeight = "900";
-heroText2.style.lineHeight = "1.5";
+// hero img
+const img = document.createElement("img");
+img.setAttribute("src", "./img/pokemon.png");
+img.setAttribute("alt", "pokemon");
+imgAndText.append(img);
 // hero buttons
 const heroButtons = document.createElement("div");
 heroButtons.classList.add("heroButons");
@@ -137,10 +136,31 @@ heroButton2.innerHTML = "button";
 hero.append(heroButtons);
 heroButtons.append(heroButton);
 heroButtons.append(heroButton2);
+// hero class style
+hero.style.height = "700px";
+hero.style.width = "100%";
+hero.style.backgroundColor = "#f3c7bd";
+// imgAndText style
+imgAndText.style.display = "flex";
+imgAndText.style.width = "100%";
+// hero text style
+heroText.style.width = "80%";
+heroText.style.padding = "100px 0 0 150px";
+heroText.style.fontSize = "80px";
+heroText.style.fontWeight = "900";
+// hero text2 style
+heroText2.style.width = "55%";
+heroText2.style.padding = "25px 0 0 150px";
+heroText2.style.fontSize = "25px";
+heroText2.style.fontWeight = "900";
+heroText2.style.lineHeight = "1.5";
+// hero img style
+img.style.width = "50%";
+img.style.padding = "100px 50px 0 0";
 // hero buttons style
 heroButtons.style.display = "flex";
 // heroButton style
-heroButton.style.margin = "50px 0 20px 150px";
+heroButton.style.margin = "0 0 20px 150px";
 heroButton.style.padding = "10px 20px";
 heroButton.style.width = "8%";
 heroButton.style.fontWeight = "900";
@@ -148,12 +168,10 @@ heroButton.style.backgroundColor = "blue";
 heroButton.style.color = "white";
 heroButton.style.border = "none";
 // heroButton2 style
-heroButton2.style.margin = "50px 0 20px 40px";
+heroButton2.style.margin = "0 0 20px 40px";
 heroButton2.style.padding = "10px 20px";
 heroButton2.style.width = "8%";
 heroButton2.style.fontWeight = "900";
 heroButton2.style.backgroundColor = "white";
 heroButton2.style.color = "blue";
 heroButton2.style.border = "none";
-// apacioj mygtukai
-// ir desinej uzmest koki paveiksliuka
