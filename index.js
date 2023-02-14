@@ -126,7 +126,34 @@ heroText2.style.width = "30%";
 heroText2.style.padding = "25px 0 0 150px";
 heroText2.style.fontSize = "25px";
 heroText2.style.fontWeight = "900";
-
-// lineheight padaryt
+heroText2.style.lineHeight = "1.5";
+// hero buttons
+const heroButtons = document.createElement("div");
+heroButtons.classList.add("heroButons");
+const heroButton = document.createElement("div");
+heroButton.innerHTML = "Get Started";
+const heroButton2 = document.createElement("div");
+heroButton2.innerHTML = "button";
+hero.append(heroButtons);
+heroButtons.append(heroButton);
+heroButtons.append(heroButton2);
+// hero buttons style
+heroButtons.style.display = "flex";
+// heroButton style
+heroButton.style.margin = "50px 0 20px 150px";
+heroButton.style.padding = "10px 20px";
+heroButton.style.width = "8%";
+heroButton.style.fontWeight = "900";
+heroButton.style.backgroundColor = "blue";
+heroButton.style.color = "white";
+heroButton.style.border = "none";
+// heroButton2 style
+heroButton2.style.margin = "50px 0 20px 40px";
+heroButton2.style.padding = "10px 20px";
+heroButton2.style.width = "8%";
+heroButton2.style.fontWeight = "900";
+heroButton2.style.backgroundColor = "white";
+heroButton2.style.color = "blue";
+heroButton2.style.border = "none";
 // apacioj mygtukai
 // ir desinej uzmest koki paveiksliuka
