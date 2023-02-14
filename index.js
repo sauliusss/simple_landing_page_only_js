@@ -61,6 +61,7 @@ header.style.display = "flex";
 header.style.justifyContent = "space-between";
 header.style.padding = " 50px 150px 0 150px";
 header.style.backgroundColor = "#f3c7bd";
+
 // add style to logoSection
 logoSection.style.display = "flex";
 // add style to logo
@@ -74,8 +75,11 @@ logo.style.borderRadius = "15px";
 // add style to logoRight
 logoRight.style.margin = "5px 0 0 12px";
 // add style to logoRightText
-logoRightText.style.fontSize = "20px";
+logoRightText.style.fontSize = "22px";
 logoRightText.style.fontWeight = "900";
+// add style to logoRightText2
+logoRightText2.style.fontSize = "18px";
+logoRightText2.style.color = "#a8857f";
 // add style to nav
 homeLink.style.margin = "5px 50px 0 0";
 storiesLink.style.margin = "5px 50px 0 0";
@@ -87,15 +91,19 @@ storiesLink.style.textDecoration = "none";
 libraryLink.style.textDecoration = "none";
 getStartedLink.style.textDecoration = "none";
 
+homeLink.style.fontSize = "20px";
 homeLink.style.color = "black";
 homeLink.style.fontWeight = "900";
+storiesLink.style.fontSize = "20px";
 storiesLink.style.color = "black";
+libraryLink.style.fontSize = "20px";
 libraryLink.style.color = "black";
 getStartedLink.style.color = "white";
 getStartedLink.style.fontWeight = "900";
 // nav last child style
 getStartedLink.style.padding = "10px 20px";
-getStartedLink.style.backgroundColor = "blue";
+getStartedLink.style.fontSize = "20px";
+getStartedLink.style.backgroundColor = "#2f40c6";
 getStartedLink.style.border = "none";
 
 // header section end >>>>>>>>>>>>>>>>>>>>>
@@ -132,7 +140,7 @@ heroButtons.classList.add("heroButons");
 const heroButton = document.createElement("div");
 heroButton.innerHTML = "Get Started";
 const heroButton2 = document.createElement("div");
-heroButton2.innerHTML = "button";
+heroButton2.innerHTML = "Learn More";
 hero.append(heroButtons);
 heroButtons.append(heroButton);
 heroButtons.append(heroButton2);
@@ -143,19 +151,21 @@ hero.style.backgroundColor = "#f3c7bd";
 // imgAndText style
 imgAndText.style.display = "flex";
 imgAndText.style.width = "100%";
+
 // hero text style
-heroText.style.width = "80%";
+heroText.style.maxWidth = "10em";
 heroText.style.padding = "100px 0 0 150px";
 heroText.style.fontSize = "80px";
 heroText.style.fontWeight = "900";
 // hero text2 style
-heroText2.style.width = "55%";
-heroText2.style.padding = "25px 0 0 150px";
+heroText2.style.maxWidth = "16em";
+heroText2.style.padding = "70px 0 0 150px";
 heroText2.style.fontSize = "25px";
-heroText2.style.fontWeight = "900";
+heroText2.style.fontWeight = "400";
 heroText2.style.lineHeight = "1.5";
+
 // hero img style
-img.style.width = "50%";
+
 img.style.padding = "100px 50px 0 0";
 // hero buttons style
 heroButtons.style.display = "flex";
@@ -163,15 +173,21 @@ heroButtons.style.display = "flex";
 heroButton.style.margin = "0 0 20px 150px";
 heroButton.style.padding = "10px 20px";
 heroButton.style.width = "8%";
+heroButton.style.fontSize = "22px";
+heroButton.style.textAlign = "center";
 heroButton.style.fontWeight = "900";
-heroButton.style.backgroundColor = "blue";
+heroButton.style.backgroundColor = "#2f40c6";
 heroButton.style.color = "white";
 heroButton.style.border = "none";
+heroButton.style.cursor = "pointer";
 // heroButton2 style
 heroButton2.style.margin = "0 0 20px 40px";
 heroButton2.style.padding = "10px 20px";
 heroButton2.style.width = "8%";
+heroButton2.style.fontSize = "22px";
+heroButton2.style.textAlign = "center";
 heroButton2.style.fontWeight = "900";
 heroButton2.style.backgroundColor = "white";
-heroButton2.style.color = "blue";
+heroButton2.style.color = "#2f40c6";
 heroButton2.style.border = "none";
+heroButton2.style.cursor = "pointer";
