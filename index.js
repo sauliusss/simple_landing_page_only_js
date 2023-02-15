@@ -59,7 +59,7 @@ container.style.border = "150px solid #3c1c57";
 // add style to header
 header.style.display = "flex";
 header.style.justifyContent = "space-between";
-header.style.padding = " 50px 150px 0 150px";
+header.style.padding = " 50px 50px 0 150px";
 header.style.backgroundColor = "#f3c7bd";
 
 // add style to logoSection
@@ -81,31 +81,31 @@ logoRightText.style.fontWeight = "900";
 logoRightText2.style.fontSize = "18px";
 logoRightText2.style.color = "#a8857f";
 // add style to nav
+// add style to homeLink
 homeLink.style.margin = "5px 50px 0 0";
-storiesLink.style.margin = "5px 50px 0 0";
-libraryLink.style.margin = "5px 50px 0 0";
-getStartedLink.style.margin = "5px 50px 0 0";
-
 homeLink.style.textDecoration = "none";
-storiesLink.style.textDecoration = "none";
-libraryLink.style.textDecoration = "none";
-getStartedLink.style.textDecoration = "none";
-
 homeLink.style.fontSize = "20px";
-homeLink.style.color = "black";
 homeLink.style.fontWeight = "900";
+homeLink.style.color = "black";
+// add style to storiesLink
+storiesLink.style.margin = "5px 50px 0 0";
+storiesLink.style.textDecoration = "none";
 storiesLink.style.fontSize = "20px";
 storiesLink.style.color = "black";
-libraryLink.style.fontSize = "20px";
+// add style to libraryLink
+libraryLink.style.margin = "5px 50px 0 0";
+libraryLink.style.textDecoration = "none";
 libraryLink.style.color = "black";
-getStartedLink.style.color = "white";
+// add style to getStartedLink
+getStartedLink.style.margin = "5px 50px 0 0";
+getStartedLink.style.textDecoration = "none";
 getStartedLink.style.fontWeight = "900";
-// nav last child style
+getStartedLink.style.color = "white";
+// getStartedLink style
 getStartedLink.style.padding = "10px 20px";
 getStartedLink.style.fontSize = "20px";
 getStartedLink.style.backgroundColor = "#2f40c6";
 getStartedLink.style.border = "none";
-
 // header section end >>>>>>>>>>>>>>>>>>>>>
 
 // hero section start >>>>>>>>>>>>>>>>>>>>>
@@ -124,7 +124,7 @@ imgAndText.append(texts);
 // hero text
 const heroText = document.createElement("div");
 texts.append(heroText);
-heroText.innerHTML = "Build stunning websites & apps.";
+heroText.innerHTML = "Build stunning websites &amp; apps.";
 // hero text2
 const heroText2 = document.createElement("div");
 texts.append(heroText2);
@@ -145,13 +145,11 @@ hero.append(heroButtons);
 heroButtons.append(heroButton);
 heroButtons.append(heroButton2);
 // hero class style
-hero.style.height = "700px";
-hero.style.width = "100%";
+hero.style.height = "800px";
 hero.style.backgroundColor = "#f3c7bd";
 // imgAndText style
 imgAndText.style.display = "flex";
 imgAndText.style.width = "100%";
-
 // hero text style
 heroText.style.maxWidth = "10em";
 heroText.style.padding = "100px 0 0 150px";
@@ -163,16 +161,14 @@ heroText2.style.padding = "70px 0 0 150px";
 heroText2.style.fontSize = "25px";
 heroText2.style.fontWeight = "400";
 heroText2.style.lineHeight = "1.5";
-
 // hero img style
-
 img.style.padding = "100px 50px 0 0";
 // hero buttons style
 heroButtons.style.display = "flex";
+heroButtons.style.margin = "50px 0 0 0 ";
 // heroButton style
 heroButton.style.margin = "0 0 20px 150px";
 heroButton.style.padding = "10px 20px";
-heroButton.style.width = "8%";
 heroButton.style.fontSize = "22px";
 heroButton.style.textAlign = "center";
 heroButton.style.fontWeight = "900";
@@ -183,7 +179,6 @@ heroButton.style.cursor = "pointer";
 // heroButton2 style
 heroButton2.style.margin = "0 0 20px 40px";
 heroButton2.style.padding = "10px 20px";
-heroButton2.style.width = "8%";
 heroButton2.style.fontSize = "22px";
 heroButton2.style.textAlign = "center";
 heroButton2.style.fontWeight = "900";
