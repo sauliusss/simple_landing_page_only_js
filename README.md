@@ -20,4 +20,4 @@ Site published at:
 
 - [Saulius](https://github.com/sauliusss),
 
-![Desktop Design Preview](https://dribbble.com/shots/5789991-Foundation-Startup-Landing-Page-Bootstrap-Website-Template/attachments/5789991?mode=media "Desktop Design Preview")
+![Desktop Design Preview](./img/design%20preview.JPG "Desktop Design Preview")
