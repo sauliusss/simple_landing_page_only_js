@@ -20,4 +20,4 @@ Site published at:
 
 - [Saulius](https://github.com/sauliusss)
 
-![Desktop Design Preview](./img/design%20preview.JPG "Desktop Design Preview")
+![Desktop Design Preview](./img/preview.png "Desktop Design Preview")
