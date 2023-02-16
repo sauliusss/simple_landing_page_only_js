@@ -18,6 +18,6 @@ Site published at:
 
 ## Authors
 
-- [Saulius](https://github.com/sauliusss),
+- [Saulius](https://github.com/sauliusss)
 
 ![Desktop Design Preview](https://dribbble.com/shots/5789991-Foundation-Startup-Landing-Page-Bootstrap-Website-Template/attachments/5789991?mode=media "Desktop Design Preview")
