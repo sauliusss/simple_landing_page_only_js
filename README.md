@@ -18,6 +18,6 @@ Site published at:
 
 ## Authors
 
-- [Saulius](https://github.com/sauliusss),
+- [Saulius](https://github.com/sauliusss)
 
 ![Desktop Design Preview](./img/design%20preview.JPG "Desktop Design Preview")
