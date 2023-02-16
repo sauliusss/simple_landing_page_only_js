@@ -95,6 +95,7 @@ storiesLink.style.color = "black";
 // add style to libraryLink
 libraryLink.style.margin = "5px 50px 0 0";
 libraryLink.style.textDecoration = "none";
+libraryLink.style.fontSize = "20px";
 libraryLink.style.color = "black";
 // add style to getStartedLink
 getStartedLink.style.margin = "5px 50px 0 0";
