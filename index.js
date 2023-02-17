@@ -34,21 +34,32 @@ const nav = document.createElement("div");
 nav.classList.add("nav");
 header.append(nav);
 // add links in nav
+
 const homeLink = document.createElement("a");
 const storiesLink = document.createElement("a");
 const libraryLink = document.createElement("a");
 const getStartedLink = document.createElement("a");
+
 // set attributes
-homeLink.setAttribute("href", "#");
-storiesLink.setAttribute("href", "#");
-libraryLink.setAttribute("href", "#");
-getStartedLink.setAttribute("href", "#");
+const array = [homeLink, storiesLink, libraryLink, getStartedLink];
+for (let i = 0; i < array.length; i++) {
+  console.log(array[0].setAttribute("href", "#"));
+}
+// homeLink.setAttribute("href", "#");
+// storiesLink.setAttribute("href", "#");
+// libraryLink.setAttribute("href", "#");
+// getStartedLink.setAttribute("href", "#");
+
 // add to nav
-nav.append(homeLink);
-nav.append(storiesLink);
-nav.append(libraryLink);
-nav.append(getStartedLink);
-// add element name
+for (let i = 0; i < array.length; i++) {
+  console.log(nav.append(array[i]));
+}
+console.log(nav);
+// nav.append(homeLink);
+// nav.append(storiesLink);
+// nav.append(libraryLink);
+// nav.append(getStartedLink);
+// // add element name
 homeLink.innerHTML = "Home";
 storiesLink.innerHTML = "Stories";
 libraryLink.innerHTML = "Library";
