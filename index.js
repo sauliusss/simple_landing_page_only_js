@@ -54,7 +54,6 @@ for (let i = 0; i < array.length; i++) {
 for (let i = 0; i < array.length; i++) {
   console.log(nav.append(array[i]));
 }
-console.log(nav);
 // nav.append(homeLink);
 // nav.append(storiesLink);
 // nav.append(libraryLink);
@@ -93,29 +92,40 @@ logoRightText2.style.fontSize = "18px";
 logoRightText2.style.color = "#a8857f";
 // add style to nav
 // add style to homeLink
-homeLink.style.margin = "5px 50px 0 0";
-homeLink.style.textDecoration = "none";
-homeLink.style.fontSize = "20px";
+const marg = [homeLink, storiesLink, libraryLink, getStartedLink];
+for (let i = 0; i < array.length; i++) {
+  console.log((marg[i].style.margin = "5px 50px 0 0"));
+}
+for (let i = 0; i < array.length; i++) {
+  console.log((marg[i].style.textDecoration = "none"));
+}
+for (let i = 0; i < array.length; i++) {
+  console.log((marg[i].style.fontSize = "20px"));
+}
+
+// homeLink.style.margin = "5px 50px 0 0";
+// homeLink.style.textDecoration = "none";
+// homeLink.style.fontSize = "20px";
 homeLink.style.fontWeight = "900";
 homeLink.style.color = "black";
 // add style to storiesLink
-storiesLink.style.margin = "5px 50px 0 0";
-storiesLink.style.textDecoration = "none";
-storiesLink.style.fontSize = "20px";
+// storiesLink.style.margin = "5px 50px 0 0";
+// storiesLink.style.textDecoration = "none";
+// storiesLink.style.fontSize = "20px";
 storiesLink.style.color = "black";
 // add style to libraryLink
-libraryLink.style.margin = "5px 50px 0 0";
-libraryLink.style.textDecoration = "none";
-libraryLink.style.fontSize = "20px";
+// libraryLink.style.margin = "5px 50px 0 0";
+// libraryLink.style.textDecoration = "none";
+// libraryLink.style.fontSize = "20px";
 libraryLink.style.color = "black";
 // add style to getStartedLink
-getStartedLink.style.margin = "5px 50px 0 0";
-getStartedLink.style.textDecoration = "none";
+// getStartedLink.style.margin = "5px 50px 0 0";
+// getStartedLink.style.textDecoration = "none";
 getStartedLink.style.fontWeight = "900";
 getStartedLink.style.color = "white";
 // getStartedLink style
 getStartedLink.style.padding = "10px 20px";
-getStartedLink.style.fontSize = "20px";
+// getStartedLink.style.fontSize = "20px";
 getStartedLink.style.backgroundColor = "#2f40c6";
 getStartedLink.style.border = "none";
 // header section end >>>>>>>>>>>>>>>>>>>>>
