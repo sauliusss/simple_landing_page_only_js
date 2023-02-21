@@ -102,22 +102,25 @@ for (let i = 0; i < array.length; i++) {
 for (let i = 0; i < array.length; i++) {
   console.log((marg[i].style.fontSize = "20px"));
 }
+for (let i = 0; i < array.length - 1; i++) {
+  console.log((marg[i].style.color = "black"));
+}
 
 // homeLink.style.margin = "5px 50px 0 0";
 // homeLink.style.textDecoration = "none";
 // homeLink.style.fontSize = "20px";
 homeLink.style.fontWeight = "900";
-homeLink.style.color = "black";
+// homeLink.style.color = "black";
 // add style to storiesLink
 // storiesLink.style.margin = "5px 50px 0 0";
 // storiesLink.style.textDecoration = "none";
 // storiesLink.style.fontSize = "20px";
-storiesLink.style.color = "black";
+// storiesLink.style.color = "black";
 // add style to libraryLink
 // libraryLink.style.margin = "5px 50px 0 0";
 // libraryLink.style.textDecoration = "none";
 // libraryLink.style.fontSize = "20px";
-libraryLink.style.color = "black";
+// libraryLink.style.color = "black";
 // add style to getStartedLink
 // getStartedLink.style.margin = "5px 50px 0 0";
 // getStartedLink.style.textDecoration = "none";
@@ -189,22 +192,44 @@ img.style.padding = "100px 50px 0 0";
 heroButtons.style.display = "flex";
 heroButtons.style.margin = "50px 0 0 0 ";
 // heroButton style
+const btn = [heroButton, heroButton2];
+for (let i = 0; i < btn.length; i++) {
+  console.log((btn[i].style.padding = "10px 20px"));
+}
+for (let i = 0; i < btn.length; i++) {
+  console.log((btn[i].style.fontSize = "22px"));
+}
+for (let i = 0; i < btn.length; i++) {
+  console.log((btn[i].style.textAlign = "center"));
+}
+for (let i = 0; i < btn.length; i++) {
+  console.log((btn[i].style.fontWeight = "900"));
+}
+
+for (let i = 0; i < btn.length; i++) {
+  console.log((btn[i].style.border = "none"));
+}
+
+for (let i = 0; i < btn.length; i++) {
+  console.log((btn[i].style.cursor = "pointer"));
+}
+
 heroButton.style.margin = "0 0 20px 150px";
-heroButton.style.padding = "10px 20px";
-heroButton.style.fontSize = "22px";
-heroButton.style.textAlign = "center";
-heroButton.style.fontWeight = "900";
+// heroButton.style.padding = "10px 20px";
+// heroButton.style.fontSize = "22px";
+// heroButton.style.textAlign = "center";
+// heroButton.style.fontWeight = "900";
 heroButton.style.backgroundColor = "#2f40c6";
 heroButton.style.color = "white";
-heroButton.style.border = "none";
-heroButton.style.cursor = "pointer";
+// heroButton.style.border = "none";
+// heroButton.style.cursor = "pointer";
 // heroButton2 style
 heroButton2.style.margin = "0 0 20px 40px";
-heroButton2.style.padding = "10px 20px";
-heroButton2.style.fontSize = "22px";
-heroButton2.style.textAlign = "center";
-heroButton2.style.fontWeight = "900";
+// heroButton2.style.padding = "10px 20px";
+// heroButton2.style.fontSize = "22px";
+// heroButton2.style.textAlign = "center";
+// heroButton2.style.fontWeight = "900";
 heroButton2.style.backgroundColor = "white";
 heroButton2.style.color = "#2f40c6";
-heroButton2.style.border = "none";
-heroButton2.style.cursor = "pointer";
+// heroButton2.style.border = "none";
+// heroButton2.style.cursor = "pointer";
